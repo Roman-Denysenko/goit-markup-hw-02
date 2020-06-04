@@ -1,0 +1,45 @@
+/* #2196F3 */
+/* #212121 */
+
+:root {
+  --main-color-text: #212121;
+  --accent-color: #2196f3;
+}
+
+body {
+  color: var(--main-color-text);
+  background-color: #e5e5e5;
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-color-text);
+}
+
+ul {
+  list-style: none;
+}
+
+/*шапка*/
+
+.header {
+  background-color: #ffffff;
+}
+
+.logo-link .logo-web {
+  color: var(--accent-color);
+}
+
+.header .link:hover,
+.header .link:focus {
+  color: var(--accent-color);
+}
+
+.header .link-mail:hover,
+.header .link-mail:focus {
+  color: var(--accent-color);
+}
+
+.nav .link.current {
+  color: var(--accent-color);
+}
