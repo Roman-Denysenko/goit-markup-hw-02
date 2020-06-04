@@ -4,6 +4,7 @@
 :root {
   --main-color-text: #212121;
   --accent-color: #2196f3;
+  --second-color-text: #757575;
 }
 
 body {
@@ -41,5 +42,52 @@ ul {
 }
 
 .nav .link.current {
+  color: var(--accent-color);
+}
+
+/*Главный контент страницы*/
+
+/*Секция герой*/
+
+.section-heroy .hero-title {
+  color: #ffffff;
+}
+
+.buttom {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+/*Наши преимущества*/
+
+.section {
+  background-color: #e5e5e5;
+}
+
+.section-title {
+  color: var(--main-color-text);
+}
+
+.section-subtitle {
+  color: var(--main-color-text);
+}
+
+.section-text {
+  color: var(--second-color-text);
+}
+
+.work {
+  background: rgba(47, 48, 58, 0.8);
+  color: #ffffff;
+}
+
+.team {
+  background-color: #f5f4fa;
+}
+
+/*Cоц сети*/
+
+.team .social-link:hover,
+.team .social-link:focus {
   color: var(--accent-color);
 }
