@@ -53,7 +53,7 @@ ul {
   color: #ffffff;
 }
 
-.buttom {
+.button {
   color: #ffffff;
   background-color: var(--accent-color);
 }
@@ -87,7 +87,37 @@ ul {
 
 /*Cоц сети*/
 
-.team .social-link:hover,
-.team .social-link:focus {
+.social-list .social-link {
+  color: #ffffff;
+}
+
+.social-link:hover,
+.social-link:focus {
   color: var(--accent-color);
+}
+
+/*Футер*/
+
+.footer {
+  background-color: #2f303a;
+}
+
+.address {
+  color: #ffffff;
+}
+
+.logo-link .logo-studio {
+  color: #ffffff;
+}
+
+.address .contact-address {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.social {
+  color: #ffffff;
+}
+
+.dbr {
+  color: rgba(255, 255, 255, 0.4);
 }
