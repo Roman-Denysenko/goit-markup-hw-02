@@ -58,6 +58,10 @@ ul {
 .header .link-tel:focus {
   color: var(--accent-color);
 }
+.link-mail,
+.link-tel {
+  color: var(--second-color-text);
+}
 
 .nav .link.current {
   color: var(--accent-color);
@@ -85,6 +89,7 @@ ul {
 
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .button {
@@ -119,6 +124,7 @@ ul {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .comand {
@@ -191,6 +197,10 @@ ul {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
+}
+
+.social-text {
+  text-transform: uppercase;
 }
 
 .dbr {
